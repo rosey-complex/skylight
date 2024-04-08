@@ -1,0 +1,13 @@
+/bin/
+/bin/*
+*.sky
+*qmake*
+Makefile
+skylight.o
+skylight
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles
+skylight_autogen
+.qt/*
+.qt/
