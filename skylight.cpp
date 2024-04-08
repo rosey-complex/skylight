@@ -24,7 +24,7 @@ int main(int argc, char* argv[]) {
     QWidget window;
     window.setWindowTitle("Skylight");
     QGridLayout *L_Window = new QGridLayout(&window);
-    window.setFixedSize(500, 500);
+    window.setFixedSize(500, 360);
 
     QLineEdit *LE_File = new QLineEdit;
     L_Window -> addWidget(LE_File, 0, 0);
