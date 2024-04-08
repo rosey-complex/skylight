@@ -30,7 +30,7 @@ int main(int argc, char* argv[]) {
     L_Window -> addWidget(LE_File, 0, 0);
     QPushButton *BTN_SelFile = new QPushButton("Select File");
     L_Window -> addWidget(BTN_SelFile, 0, 1);
-    QPushButton *BTN_Run = new QPushButton("Generate Entry");
+    QPushButton *BTN_Run = new QPushButton("Generate");
     L_Window -> addWidget(BTN_Run, 0, 2);
 
     QLineEdit *LE_Name = new QLineEdit;
